@@ -1,0 +1,49 @@
+{
+  "areas": [
+    {
+      "AssemblyName": "Demo.Wage.AreaA",
+      "TypeName": "Demo.Wage.AreaA.AreaA",
+      "Key": "AreaA",
+      "Name": "Area A",
+      "CalKey": "CalA"
+    },
+    {
+      "AssemblyName": "Demo.Wage.AreaB",
+      "TypeName": "Demo.Wage.AreaB.AreaB",
+      "Key": "AreaB",
+      "Name": "Area B",
+      "CalKey": "CalB"
+    },
+    {
+      "AssemblyName": "Demo.Wage.AreaC",
+      "TypeName": "Demo.Wage.AreaC.AreaC",
+      "Key": "AreaC",
+      "Name": "Area C",
+      "CalKey": "CalC"
+    },
+    {
+      "AssemblyName": "Demo.Wage.AreaA",
+      "TypeName": "Demo.Wage.AreaA.AreaA",
+      "Key": "AreaAB",
+      "Name": "Area A",
+      "CalKey": "CalB"
+    }
+  ],
+  "calculations": [
+    {
+      "AssemblyName": "Demo.Wage.AreaA",
+      "TypeName": "Demo.Wage.AreaA.CalculationA",
+      "Key": "CalA"
+    },
+    {
+      "AssemblyName": "Demo.Wage.AreaB",
+      "TypeName": "Demo.Wage.AreaB.CalculationB",
+      "Key": "CalB"
+    },
+    {
+      "AssemblyName": "Demo.Wage.AreaC",
+      "TypeName": "Demo.Wage.AreaC.CalculationC",
+      "Key": "CalC"
+    }
+  ]
+}

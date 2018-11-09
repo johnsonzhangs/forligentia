@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AreaA\**" />
+    <Compile Remove="AreaB\**" />
+    <Compile Remove="AreaC\**" />
+    <Content Remove="AreaA\**" />
+    <Content Remove="AreaB\**" />
+    <Content Remove="AreaC\**" />
+    <EmbeddedResource Remove="AreaA\**" />
+    <EmbeddedResource Remove="AreaB\**" />
+    <EmbeddedResource Remove="AreaC\**" />
+    <None Remove="AreaA\**" />
+    <None Remove="AreaB\**" />
+    <None Remove="AreaC\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Wage.AreaA\Demo.Wage.AreaA.csproj" />
+    <ProjectReference Include="..\Demo.Wage.AreaB\Demo.Wage.AreaB.csproj" />
+    <ProjectReference Include="..\Demo.Wage.AreaC\Demo.Wage.AreaC.csproj" />
+    <ProjectReference Include="..\Demo.Wage\Demo.Wage.csproj" />
+  </ItemGroup>
+
+</Project>
