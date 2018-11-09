@@ -25,7 +25,6 @@ namespace UnitTestProject1
                    .UseEnvironment("Development")
                    )
                    ;
-
         }
 
 
